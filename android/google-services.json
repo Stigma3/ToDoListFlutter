@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "139093968723",
+    "project_id": "flupper-todo-list",
+    "storage_bucket": "flupper-todo-list.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:139093968723:android:74eaa5eee1bc10e0b3c3a6",
+        "android_client_info": {
+          "package_name": "com.example.to_do_list_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "139093968723-5pooiakth28r6q5shj69jefsakn8l4ve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDce3V674vaOKSsUcYpB8v8YF3YcYiqV-o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "139093968723-5pooiakth28r6q5shj69jefsakn8l4ve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
