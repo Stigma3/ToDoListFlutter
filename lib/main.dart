@@ -1,22 +1,20 @@
 import 'dart:ui';
+import 'package:ToDo/firebase_options.dart';
 import 'package:ToDo/model/passcodeModel.dart';
 import 'package:ToDo/screens/onBoardingScreen.dart';
 import 'package:ToDo/theme/customThemes.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:hive_flutter/hive_flutter.dart';
 import 'model/toDoModel.dart';
 
+
 void main() async {
-  await Hive.initFlutter();
-  Hive.registerAdapter(ToDoModelAdapter());
-  await Hive.openBox<ToDoModel>('ToDoApp');
-
-  Hive.registerAdapter(PasscodeModelAdapter());
-  await Hive.openBox<PasscodeModel>('Passcode');
-
-  var widgetsBinding = WidgetsFlutterBinding.ensureInitialized();
-  FlutterNativeSplash.preserve(widgetsBinding: widgetsBinding);
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(ToDoApp());
 }
 

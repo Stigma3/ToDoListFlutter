@@ -1,7 +1,7 @@
 {
   "project_info": {
-    "project_number": "24600594255",
-    "project_id": "fluttertest-4ecbd",
+    "project_number": "139093968723",
+    "project_id": "flupper-todo-list",
     "storage_bucket": "fluttertest-4ecbd.appspot.com"
   },
   "client": [
@@ -20,7 +20,7 @@
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAZW9qjaoOYqfy845-LzgLUJKOYldxqjW4"
+          "current_key": "AIzaSyDce3V674vaOKSsUcYpB8v8YF3YcYiqV-o"
         }
       ],
       "services": {
