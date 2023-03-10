@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "139093968723",
-    "project_id": "flupper-todo-list",
-    "storage_bucket": "flupper-todo-list.appspot.com"
+    "project_number": "24600594255",
+    "project_id": "fluttertest-4ecbd",
+    "storage_bucket": "fluttertest-4ecbd.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:139093968723:android:74eaa5eee1bc10e0b3c3a6",
+        "mobilesdk_app_id": "1:24600594255:android:b17af8ea37b22b81e8673a",
         "android_client_info": {
           "package_name": "com.example.to_do_list_flutter"
         }
       },
       "oauth_client": [
         {
-          "client_id": "139093968723-5pooiakth28r6q5shj69jefsakn8l4ve.apps.googleusercontent.com",
+          "client_id": "24600594255-uhvn0nosc931ujpb8i8g35n5u9f6ek7p.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDce3V674vaOKSsUcYpB8v8YF3YcYiqV-o"
+          "current_key": "AIzaSyAZW9qjaoOYqfy845-LzgLUJKOYldxqjW4"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "139093968723-5pooiakth28r6q5shj69jefsakn8l4ve.apps.googleusercontent.com",
+              "client_id": "24600594255-uhvn0nosc931ujpb8i8g35n5u9f6ek7p.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
